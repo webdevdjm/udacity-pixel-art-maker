@@ -17,7 +17,7 @@ $(document).ready(function(){
     var canvasBody = canvas.find('tbody');
     
     for(var i = 0; i < rows; i++) {
-      canvasBody.append('<tr></tr>');
+      canvasBody.append('<tr></tr>').css('background-color', '#1C272F');
       for(var j = 0; j < columns; j++){
         $('tr:last').append('<td></td>');
         $('td').attr('class', 'cells');
