@@ -1,0 +1,104 @@
+/*
+  Basic Reset
+  http://maxdesign.com.au/articles/css-reset/
+*/
+
+html, body, ul, ol, li, form, fieldset, legend
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin-top: 0; }
+
+table
+{
+	border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+
+th, td
+{
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+input, textarea, select
+{
+	font-size: 110%;
+	line-height: 1.1;
+}
+
+/*
+  Base Styles
+*/
+/* 
+  Colors 
+  https://color.adobe.com/create/color-wheel/?base=2&rule=Triad&selected=1&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.035343137254901964,0.16733660130720454,0.23333333333333334,0.5833333333333334,0.08835784313725492,0.13785539215681775,0.027450980392156862,0.36470588235294116,0.5333333333333333,0.3333333333333333,0.32382919565666946,0.050490196078431374,0.8333333333333333,0.8053727203244305,0.0012254901960784268&swatchOrder=0,1,2,3,4
+*/
+:root {
+  --text-color: #555;
+  --blue: #075D88;
+  --dark-blue: #092B3B;
+  --cta-color: #D9853B;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {  
+  text-align: center;
+  background-color: #ECECEA;
+  color: var(--text-color);
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  margin: 0.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 1.2em;
+  font-weight: 500;
+  color: var(--cta-color);
+  font-size: 1.2rem;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 1em;
+}
+
+td {
+    width: 1em;
+}
+
+input[type=number] {
+    width: 3em;
+    margin: 0 0.2em;
+}
