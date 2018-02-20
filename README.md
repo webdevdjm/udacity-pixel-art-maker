@@ -3,6 +3,7 @@
 ## Built for Udacity Grow with Google Challenge
 
 [Udacity Classroom](https://classroom.udacity.com/me)
+
 [Github Repo](https://github.com/udacity/project-pixel-art-maker-starter)
 
 I added some automation to the build process with [Browser Sync](https://www.npmjs.com/package/browser-sync)
