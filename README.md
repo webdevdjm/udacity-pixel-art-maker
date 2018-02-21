@@ -4,11 +4,13 @@
 
 [Udacity Classroom](https://classroom.udacity.com/me)
 
-[Github Repo](https://github.com/udacity/project-pixel-art-maker-starter)
+Link to the [Github Repo](https://github.com/udacity/project-pixel-art-maker-starter)
 
 I added some automation to the build process with [Browser Sync](https://www.npmjs.com/package/browser-sync)
 
-To use as a starter simply:
+Direct link to the [Site](https://webdevdjm.github.io/udacity-pixel-art-maker/)
+
+Feel free to use as a starter:
 1. Clone or Download this repo 
 2. Navigate to the folder in the terminal or command line
 3. Run npm init
